@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import androidx.test.core.app.ApplicationProvider;
 
+import org.junit.Before;
 
 import noom.helper.UiAutomatorHelper;
 
@@ -17,6 +18,7 @@ public class BaseTest {
 
     public UiAutomatorHelper helper = new UiAutomatorHelper();
 
+    @Before
     public void launchApp()  {
 
         // Start from the home screen
